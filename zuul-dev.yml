@@ -1,0 +1,13 @@
+server:
+  port: 20086
+eureka:
+  instance:
+    hostname: zuul.sinfonia.heiha.com
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.sinfonia.heiha.com:20089/eureka/
+zuul:
+#  ignoredServices: '*'
+  routes:
+    uc: /uc/**
+    wechat: /wechat/**
