@@ -19,4 +19,4 @@ eureka:
       defaultZone: http://localhost:20089/eureka/
 sinfonia:
   uc:
-    info: Sinfonia UC Develop v2
+    info: Sinfonia UC Develop v3
