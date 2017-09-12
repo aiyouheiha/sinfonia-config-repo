@@ -8,12 +8,15 @@ spring:
     password: HdjcoK{f*fk@k-13
   rabbitmq:
     host: sinfonia.top
-    port: 15672
+    port: 5672
     username: test
-    password: 123456
+    password: test
 mybatis:
   mapper-locations: classpath:sql/mapper/*Mapper.xml
 eureka:
   client:
     serviceUrl:
       defaultZone: http://sinfonia.top:20089/eureka/
+sinfonia:
+  uc:
+    info: Sinfonia UC Prod
