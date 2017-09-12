@@ -16,7 +16,7 @@ mybatis:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://sinfonia.top:20089/eureka/
+      defaultZone: http://localhost:20089/eureka/
 sinfonia:
   uc:
     info: Sinfonia UC Develop v1
